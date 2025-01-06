@@ -2,6 +2,8 @@ import React from "react";
 import HeroSection from "./HeroSection";
 import UnderlinedText from "../../decorators/UnderlinedText";
 import TodaysHighlights from "./TodaysHighlights";
+import RotatedText from "../../decorators/RotatedText";
+import MasonryGrid from "./MasonryGrid";
 
 const AuthScreen = () => {
   return (
@@ -14,6 +16,13 @@ const AuthScreen = () => {
           </p>
           {/* Featured Post */}
           <TodaysHighlights />
+
+          <div className="mt-24">
+            <p className="text-2xl md:text-5xl text-center tracking-tighter font-bold">
+              Meet the <RotatedText>Stars</RotatedText> of Our Farm
+            </p>
+            <MasonryGrid />
+          </div>
         </div>  
       </div>
     </div>
