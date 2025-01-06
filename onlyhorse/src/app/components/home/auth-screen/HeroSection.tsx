@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import AuthButtons from "./AuthButtons";
+import { ModeToggle } from "@/components/ui/ModeToggle";
 
 const HeroSection = () => {
   return (
@@ -33,6 +34,7 @@ const HeroSection = () => {
           </p>
           {/* Auth Buttons Go Here */}
           <AuthButtons />
+          <ModeToggle />
         </div>
       </div>
       <div className="flex-1 relative overflow-hidden justify-center items-center hidden md:flex">
