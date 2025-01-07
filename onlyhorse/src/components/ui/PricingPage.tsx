@@ -97,7 +97,7 @@ export default function PricingPage() {
     <div
       className={cn('flex flex-col w-full items-center', styles.fancyOverlay)}
     >
-      <div className="w-full flex flex-col items-center">
+      <div className="w-full flex flex-col items-center mt-6 pt-24 sm:pt-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col items-center">
           <div className="w-full lg:w-auto mx-auto max-w-4xl lg:text-center">
             <h1 className="text-black dark:text-white text-4xl font-semibold max-w-xs sm:max-w-none md:text-6xl !leading-tight">
