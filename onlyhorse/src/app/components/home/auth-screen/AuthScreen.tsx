@@ -6,6 +6,7 @@ import RotatedText from "../../decorators/RotatedText";
 import MasonryGrid from "./MasonryGrid";
 import Features from "./Features";
 import { Testimonials } from "./Testimonials";
+import PricingPage from "@/components/ui/PricingPage";
 
 const AuthScreen = () => {
   return (
@@ -27,6 +28,7 @@ const AuthScreen = () => {
           </div>
           <Features />
           <Testimonials />
+          <PricingPage />
         </div>  
       </div>
     </div>
