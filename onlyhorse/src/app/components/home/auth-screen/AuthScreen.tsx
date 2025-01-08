@@ -21,12 +21,12 @@ const AuthScreen = () => {
           {/* Featured Post */}
           <TodaysHighlights />
 
-          <div className="mt-24">
+          {/* <div className="mt-24">
             <p className="text-2xl md:text-5xl text-center tracking-tighter font-bold">
               Meet the <RotatedText>Stars</RotatedText> of Our Farm
             </p>
             <MasonryGrid />
-          </div>
+          </div> */}
           <Features />
           <Testimonials />
           <PricingPage />

@@ -1,16 +1,18 @@
-"use client";
 
-import { Button } from '@/components/ui/button'
-import { LogoutLink } from '@kinde-oss/kinde-auth-nextjs'
-import React from 'react'
+import BaseLayout from "@/components/ui/BaseLayout";
+import { Button } from "@/components/ui/button";
+import { LogoutLink } from "@kinde-oss/kinde-auth-nextjs";
+import React from "react";
+import UserProfile from "./UserProfile";
+import Posts from "./Posts";
 
 const HomeScreen = () => {
   return (
+    <BaseLayout >
+      <UserProfile/>
+      <Posts /> 
+    </BaseLayout>
+  );
+};
 
-    <LogoutLink >
-      <Button variant="ghost">Logout</Button>
-    </LogoutLink>
-  )
-}
-
-export default HomeScreen
+export default HomeScreen;

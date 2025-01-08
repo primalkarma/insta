@@ -27,18 +27,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        
-      >
+      <body>
         <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
-            {children}
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <div className="h-screen flex flex-col">
+            <div className="flex-1">{children}</div>
             <Footer />
-          </ThemeProvider>
+          </div>
+        </ThemeProvider>
       </body>
     </html>
   );
